@@ -1,4 +1,4 @@
-#CI/CD в Облаке с помощью GitLab
+# CI/CD в Облаке с помощью GitLab
 
 В практической части вебинара мы создаем блог с использованием фреймворка [HUGO](https://gohugo.io/) 
 для генерации статического содержания. На GitLab опираемся как на основной элемент CI/CD инфрастуруктуры.  
@@ -16,3 +16,12 @@
 [Dockerized Hugo with GitLab CI/CD](https://blog.callr.tech/static-blog-hugo-docker-gitlab/)
 4. Пример репозитория с блогом в финальной версии:
 [webinar_cicd_hugoblog](https://github.com/golodnyj/webinar_cicd_hugoblog)
+
+## Последовательность действий
+— Создать виртуальную машину blog
+— Создать виртуальную машину gitlab
+— Создать Container Registry
+— Создать кластер kubernetes
+— Добавить интеграцию в gitlab с kubernetes
+— Инсталировать GitLab Runner
+- Настроить CI/CD
