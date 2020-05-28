@@ -18,10 +18,10 @@
 [webinar_cicd_hugoblog](https://github.com/golodnyj/webinar_cicd_hugoblog)
 
 ## Последовательность действий
-— Создать виртуальную машину blog
-— Создать виртуальную машину gitlab
-— Создать Container Registry
-— Создать кластер kubernetes
-— Добавить интеграцию в gitlab с kubernetes
-— Инсталировать GitLab Runner
-- Настроить CI/CD
+1. Создать виртуальную машину blog
+1. Создать виртуальную машину gitlab
+1. Создать Container Registry
+1. Создать кластер kubernetes
+1. Добавить интеграцию в gitlab с kubernetes
+1. Инсталировать GitLab Runner
+1. Настроить CI/CD
